@@ -1,0 +1,321 @@
+/* PAGE BODY */
+body{
+    /* Background color */
+    background-color: black;
+
+    /* Position of internal content */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* TITLES AND TEXTS */
+h1, h2, p, a, label{
+    /* Color */
+    color: white;
+}
+
+/* PARAGRAPHS */
+p{
+    text-align: center;
+}
+
+/* HEADER, MAIN AND FOOTER */
+header, main, footer{
+    /* Border properties */
+    border: 2px solid dodgerblue;
+    border-radius: 20px;
+
+    /* Dimensions */
+    width: 30%;
+}
+
+/* HEADER */
+header{
+    /* Position of internal content */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* NAVIGATION */
+nav{
+    /* Dimensions */
+    width: 30%;
+
+    /* Position of internal content */
+    display: flex;
+    justify-content: space-around;
+}
+
+/* NAVIGATION LINKS */
+nav a{
+    /* External space */
+    margin: 0 10px;
+}
+
+/* MAIN */
+main{
+    /* External space */
+    margin: 10px 0;
+
+    /* Position of internal content */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* FORM */
+form{
+    /* Dimensions */
+    width: 80%;
+
+    /* Position of internal content */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* FORM DIVS */
+form div{
+    /* Dimensions */
+    width: 90%;
+
+    /* Outside space */
+    margin: 10px 0;
+
+    /* Position of internal content */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* FORM BUTTONS */
+.formBtn:hover{
+    /* Mouse icon */
+    cursor: pointer;
+}
+
+/* VERSION TRÈS PETITE */
+@media all and (max-width: 359px){
+    /* HEADER, MAIN AND FOOTER */
+    header, main, footer{
+        /* Dimensions */
+        width: 100%;
+    }
+
+    /* NAVIGATION */
+    nav{
+        /* Dimensions */
+        width: 60%;
+
+        /* Position of internal content */
+        display: flex;
+        justify-content: space-around;
+    }
+
+    /* TITLE */
+    header h1{
+        /* Text size */
+        font-size: 22px;
+    }
+
+    /* LINKS, LABELS, INPUT FIELD TEXTS AND TEXTS */
+    nav a, form label, input, p{
+        /* Text size */
+        font-size: 14px;
+    }
+
+    /* BUTTON TEXTS */
+    .formBtn{
+        /* Text size */
+        font-size: 12px;
+
+        /* Dimensions */
+        width: 60px;
+    }
+
+    /* FORM */  
+    main form{
+        /* Dimensions */
+        width: 80%;
+    }
+
+    /* FORM INPUT FIELDS */
+    main form input{
+        /* Dimensions */
+        width: 50%;
+    }
+
+    /* FORM DIVS */
+    form div{
+        /* Position of internal objects */
+        display: flex;
+        align-items: center;
+    }
+}
+
+/* VERSION PETITE */
+@media all and (min-width: 360px) and (max-width: 415px){
+    /* HEADER, MAIN AND FOOTER */
+    header, main, footer{
+        /* Dimensions */
+        width: 100%;
+    }
+
+    /* NAVIGATION */
+    nav{
+        /* Dimensions */
+        width: 60%;
+
+        /* Position of internal content */
+        display: flex;
+        justify-content: space-around;
+    }
+
+    /* TITLE */
+    header h1{
+        /* Text size */
+        font-size: 26px;
+    }
+
+    /* LINKS, LABELS, INPUT FIELD TEXTS AND TEXTS */
+    nav a, form label, input, p{
+        /* Text size */
+        font-size: 18px;
+    }
+
+    /* BUTTON TEXTS */
+    .formBtn{
+        /* Text size */
+        font-size: 12px;
+
+        /* Dimensions */
+        width: 60px;
+    }
+
+    /* FORM */  
+    main form{
+        /* Dimensions */
+        width: 80%;
+    }
+
+    /* FORM INPUT FIELDS */
+    main form input{
+        /* Dimensions */
+        width: 50%;
+    }
+
+    /* FORM DIVS */
+    form div{
+        /* Position of internal objects */
+        display: flex;
+        align-items: center;
+    }
+}
+
+/* VERSION MOYENNE */
+@media all and (min-width: 416px) and (max-width: 820px){
+    /* HEADER, MAIN AND FOOTER */
+    header, main, footer{
+        /* Dimensions */
+        width: 100%;
+    }
+
+    /* NAVIGATION */
+    nav{
+        /* Dimensions */
+        width: 60%;
+
+        /* Position of internal content */
+        display: flex;
+        justify-content: space-around;
+    }
+
+    /* LINKS, LABELS, INPUT FIELD TEXTS AND TEXTS */
+    nav a, form label, input, p{
+        /* Text size */
+        font-size: 24px;
+    }
+
+    /* BUTTON TEXTS */
+    .formBtn{
+        /* Text size */
+        font-size: 20px;
+
+        /* Dimensions */
+        width: 80px;
+    }
+
+    /* FORM */  
+    main form{
+        /* Dimensions */
+        width: 80%;
+    }
+
+    /* FORM INPUT FIELDS */
+    main form input{
+        /* Dimensions */
+        width: 50%;
+    }
+
+    /* FORM DIVS */
+    form div{
+        /* Position of internal objects */
+        display: flex;
+        align-items: center;
+    }
+}
+
+/* VERSION GRANDE */
+@media all and (min-width: 821px) and (max-width: 1280px){
+   /* HEADER, MAIN AND FOOTER */
+    header, main, footer{
+        /* Dimensions */
+        width: 100%;
+    }
+
+    /* NAVIGATION */
+    nav{
+        /* Dimensions */
+        width: 60%;
+
+        /* Position of internal content */
+        display: flex;
+        justify-content: space-around;
+    }
+
+    /* LINKS, LABELS, INPUT FIELD TEXTS AND TEXTS */
+    nav a, form label, input, p{
+        /* Text size */
+        font-size: 30px;
+    }
+
+    /* BUTTON TEXTS */
+    .formBtn{
+        /* Text size */
+        font-size: 24px;
+
+        /* Dimensions */
+        width: 90px;
+    }
+
+    /* FORM */  
+    main form{
+        /* Dimensions */
+        width: 80%;
+    }
+
+    /* FORM INPUT FIELDS */
+    main form input{
+        /* Dimensions */
+        width: 50%;
+    } 
+
+    /* FORM DIVS */
+    form div{
+        /* Position of internal objects */
+        display: flex;
+        align-items: center;
+    }
+}
